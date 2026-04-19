@@ -349,7 +349,7 @@ function renderTable() {
 // Set Tanggal Otomatis
 const options = { day: "numeric", month: "long", year: "numeric" };
 document.getElementById("date-display").innerText =
-  new Date().toLocaleDateString("id-ID", options);
+  "Update:" + new Date().toLocaleDateString("id-ID", options);
 
 renderTable();
 
